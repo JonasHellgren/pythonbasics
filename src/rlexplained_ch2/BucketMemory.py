@@ -15,7 +15,7 @@ class BucketMemory:
 
     def read(self, x):
         hc = self.get_hc(x)
-        value = self.memory.get(hc, None)
+        value = self.memory.get(hc, 0)
         print(f"📥 Read from hc = {hc}: {value}")
         return value
 

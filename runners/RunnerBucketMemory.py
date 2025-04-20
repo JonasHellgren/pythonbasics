@@ -10,5 +10,6 @@ mem.write(5.2, 99.9)     # hc = 15
 mem.read(-9.9)           # Should return 3.14
 mem.read(-8.2)           # Should return 2.71
 mem.read(5.3)            # Should return 99.9
+mem.read(9.3)            # Should return 0.0
 
 mem.dump()               # Show everything
