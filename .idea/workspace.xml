@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf598fc0-4dc3-40d8-ba14-b6aa80e9201c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cannon/CannonDistance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cannon/plot_cannon.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rlexplained_ch2/BucketMemory.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rlexplained_ch2/BucketMemory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rlexplained_ch2/function_fitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/rlexplained_ch2/function_fitting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     "Python.function_fitting.executor": "Run",
     "Python.hello_world.executor": "Run",
     "Python.parameter_fitting.executor": "Run",
+    "Python.plot_cannon.executor": "Run",
     "Python.plot_y_vs_x.executor": "Run",
     "Python.runner_plot_sigmoid.executor": "Run",
     "Python.sum_numbers.executor": "Run",
@@ -57,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.function_fitting">
+  <component name="RunManager" selected="Python.plot_cannon">
     <configuration name="RunnerBucketMemory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
@@ -81,29 +82,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="float_random" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonBasics" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day_one" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_one/float_random.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="function_fitting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
@@ -119,6 +97,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/rlexplained_ch2/function_fitting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plot_cannon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonBasics" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/cannon" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cannon/plot_cannon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.plot_cannon" />
         <item itemvalue="Python.function_fitting" />
         <item itemvalue="Python.runner_plot_sigmoid" />
         <item itemvalue="Python.plot_y_vs_x" />
         <item itemvalue="Python.RunnerBucketMemory" />
-        <item itemvalue="Python.float_random" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +199,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745150497953</updated>
-      <workItem from="1745150499018" duration="7731000" />
+      <workItem from="1745150499018" duration="13418000" />
     </task>
     <servers />
   </component>
@@ -219,11 +220,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonBasics$hello_world.coverage" NAME="hello_world Coverage Results" MODIFIED="1745151540027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_one" />
     <SUITE FILE_PATH="coverage/PythonBasics$while_loop.coverage" NAME="while_loop Coverage Results" MODIFIED="1745152299923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_one" />
-    <SUITE FILE_PATH="coverage/PythonBasics$function_fitting.coverage" NAME="function_fitting Coverage Results" MODIFIED="1745158947482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/rlexplained_ch2" />
+    <SUITE FILE_PATH="coverage/PythonBasics$function_fitting.coverage" NAME="function_fitting Coverage Results" MODIFIED="1745246631965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/rlexplained_ch2" />
     <SUITE FILE_PATH="coverage/PythonBasics$float_random.coverage" NAME="float_random Coverage Results" MODIFIED="1745157361647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_one" />
     <SUITE FILE_PATH="coverage/PythonBasics$plot_y_vs_x.coverage" NAME="plot_y_vs_x Coverage Results" MODIFIED="1745158369370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_one" />
     <SUITE FILE_PATH="coverage/PythonBasics$sum_numbers.coverage" NAME="sum_numbers Coverage Results" MODIFIED="1745151609667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_one" />
     <SUITE FILE_PATH="coverage/PythonBasics$AdderClient.coverage" NAME="AdderClient Coverage Results" MODIFIED="1745154453811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/day_one" />
+    <SUITE FILE_PATH="coverage/PythonBasics$plot_cannon.coverage" NAME="plot_cannon Coverage Results" MODIFIED="1745247009616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/cannon" />
     <SUITE FILE_PATH="coverage/PythonBasics$parameter_fitting.coverage" NAME="parameter_fitting Coverage Results" MODIFIED="1745156944988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/rlexplained_ch2" />
     <SUITE FILE_PATH="coverage/PythonBasics$RunnerBucketMemory.coverage" NAME="RunnerBucketMemory Coverage Results" MODIFIED="1745157490571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runners" />
     <SUITE FILE_PATH="coverage/PythonBasics$runner_plot_sigmoid.coverage" NAME="runner_plot_sigmoid Coverage Results" MODIFIED="1745158924541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/runners" />
