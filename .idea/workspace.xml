@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf598fc0-4dc3-40d8-ba14-b6aa80e9201c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cannon/CannonDistance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cannon/plot_cannon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/Product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/Stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/comprehensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/guess_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/lamdas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/measurements_for_tuples_vs_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/name_and_steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/personinfo_for_dictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day_two/temp_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/day2/prod_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/day2/stats_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day_one/plot_y_vs_x.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/day_one/plot_y_vs_x.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +28,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python313/Lib/tkinter/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backend_bases.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/matplotlib/backends/_backend_tk.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -35,16 +51,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in prod_test.py.executor": "Run",
     "Python.AdderClient.executor": "Run",
     "Python.RunnerBucketMemory.executor": "Run",
+    "Python.comprehensions.executor": "Run",
     "Python.float_random.executor": "Run",
     "Python.function_fitting.executor": "Run",
+    "Python.guess_number.executor": "Run",
     "Python.hello_world.executor": "Run",
+    "Python.lamdas.executor": "Run",
+    "Python.measurements_for_tuples_vs_lists.executor": "Run",
+    "Python.name_and_steps.executor": "Run",
     "Python.parameter_fitting.executor": "Run",
+    "Python.personinfo_for_dictionary.executor": "Run",
     "Python.plot_cannon.executor": "Run",
     "Python.plot_y_vs_x.executor": "Run",
     "Python.runner_plot_sigmoid.executor": "Run",
     "Python.sum_numbers.executor": "Run",
+    "Python.temp_conv.executor": "Run",
     "Python.while_loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -55,11 +79,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.plot_cannon">
-    <configuration name="RunnerBucketMemory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in prod_test.py">
+    <configuration name="comprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,12 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/runners" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day_two" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runners/RunnerBucketMemory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_two/comprehensions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="function_fitting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lamdas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,12 +115,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/rlexplained_ch2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day_two" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/rlexplained_ch2/function_fitting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_two/lamdas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plot_cannon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="measurements_for_tuples_vs_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,12 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/cannon" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day_two" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/cannon/plot_cannon.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_two/measurements_for_tuples_vs_lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="plot_y_vs_x" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="personinfo_for_dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,12 +159,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day_one" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/day_two" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_one/plot_y_vs_x.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/day_two/personinfo_for_dictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,43 +172,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="runner_plot_sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in prod_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="PythonBasics" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/runners" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/day2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runners/runner_plot_sigmoid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/day2/prod_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.comprehensions" />
+      <item itemvalue="Python.lamdas" />
+      <item itemvalue="Python.measurements_for_tuples_vs_lists" />
+      <item itemvalue="Python.personinfo_for_dictionary" />
+      <item itemvalue="Python tests.Python tests in prod_test.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.plot_cannon" />
-        <item itemvalue="Python.function_fitting" />
-        <item itemvalue="Python.runner_plot_sigmoid" />
-        <item itemvalue="Python.plot_y_vs_x" />
-        <item itemvalue="Python.RunnerBucketMemory" />
+        <item itemvalue="Python tests.Python tests in prod_test.py" />
+        <item itemvalue="Python.lamdas" />
+        <item itemvalue="Python.comprehensions" />
+        <item itemvalue="Python.personinfo_for_dictionary" />
+        <item itemvalue="Python.measurements_for_tuples_vs_lists" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
         <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
       </set>
     </attachedChunks>
@@ -199,7 +218,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745150497953</updated>
-      <workItem from="1745150499018" duration="13418000" />
+      <workItem from="1745150499018" duration="13812000" />
     </task>
     <servers />
   </component>
